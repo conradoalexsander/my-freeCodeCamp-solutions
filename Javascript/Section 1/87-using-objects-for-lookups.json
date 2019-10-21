@@ -1,0 +1,5 @@
+{
+  "index.js": "// Setup\nfunction phoneticLookup(val) {\n  var result = \"\";\n\n  // Only change code below this line\n  var lookup = {\n\n    alpha: \"Adams\",\n    \n    bravo: \"Boston\",\n      \n    charlie:\"Chicago\",\n      \n    delta: \"Denver\",\n      \n    echo: \"Easy\",\n      \n    foxtrot: \"Frank\"\n  }\n\n  result=lookup[val];\n\n  // Only change code above this line\n  return result;\n}\n\n// Change this value to test\nphoneticLookup(\"charlie\");\n"
+}
+
+console.log(obj[Object.keys(obj)[0]]);

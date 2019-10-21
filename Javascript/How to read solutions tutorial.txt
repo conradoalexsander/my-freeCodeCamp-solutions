@@ -1,0 +1,96 @@
+How to read freeCodeCamp JSON solutions tutorial:
+	
+ENGLISH VERSION
+
+	When you click "Download your solution" in freeCodeCamp you can download and have the solution of the problem downloaded and stored locally. However,
+the format of this file is JSON, and it can be difficulty to understand, but don't worry, your computer can do it for you to! just put the content of your JSON
+solution in a variable, use this object in a "console.log" command and run it in the console of your browser:
+
+	var obj = {"index.js: you should put here your solution"};
+
+	console.log(obj["index.js"]);
+
+	Example:
+	===============================================================
+				CONSOLE INPUT
+	===============================================================
+	var obj = {
+    	"index.js": "// Example\nvar ourDog = {\n  \"name\": \"Camper\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"everything!\"]\n};\n\nourDog.name = \"Happy Camper\";\n\n// Setup\nvar myDog = {\n  \"name\": \"Coder\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"freeCodeCamp Campers\"]\n};\n\n// Only change code below this line.\nmyDog.name=\"Happy Coder\";"
+  	}
+
+	  console.log(obj["index.js"]);
+
+	===============================================================
+				CONSOLE OUTPUT
+	===============================================================
+	VM207:5 // Example
+	var ourDog = {
+  	"name": "Camper",
+  	"legs": 4,
+  	"tails": 1,
+  	"friends": ["everything!"]
+	};
+
+	ourDog.name = "Happy Camper";
+
+	// Setup
+	var myDog = {
+  	"name": "Coder",
+  	"legs": 4,
+  	"tails": 1,
+  	"friends": ["freeCodeCamp Campers"]
+	};
+
+	// Only change code below this line.
+	myDog.name="Happy Coder";
+
+========================================================================================================
+VERSÃO EM PORTUGUÊS
+
+Quando você clica em "Baixar sua solução" no freeCodeCamp, você pode baixar e obter a solução do problema baixada e armazenada localmente. Contudo,
+o formato deste arquivo é JSON e pode ser difícil de entender, mas não se preocupe, seu computador pode fazer isso por você! basta colocar o conteúdo do seu JSON
+solução em uma variável, use este objeto no comando "console.log" e execute-o no console do seu navegador:
+
+var obj = {"index.js: you should put here your solution"};
+
+	console.log(obj["index.js"]);
+
+	Exemplo:
+	===============================================================
+				CONSOLE INPUT
+	===============================================================
+	var obj = {
+    	"index.js": "// Example\nvar ourDog = {\n  \"name\": \"Camper\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"everything!\"]\n};\n\nourDog.name = \"Happy Camper\";\n\n// Setup\nvar myDog = {\n  \"name\": \"Coder\",\n  \"legs\": 4,\n  \"tails\": 1,\n  \"friends\": [\"freeCodeCamp Campers\"]\n};\n\n// Only change code below this line.\nmyDog.name=\"Happy Coder\";"
+  	}
+
+	  console.log(obj["index.js"]);
+
+	===============================================================
+				CONSOLE OUTPUT
+	===============================================================
+	VM207:5 // Example
+	var ourDog = {
+  	"name": "Camper",
+  	"legs": 4,
+  	"tails": 1,
+  	"friends": ["everything!"]
+	};
+
+	ourDog.name = "Happy Camper";
+
+	// Setup
+	var myDog = {
+  	"name": "Coder",
+  	"legs": 4,
+  	"tails": 1,
+  	"friends": ["freeCodeCamp Campers"]
+	};
+
+	// Only change code below this line.
+	myDog.name="Happy Coder";
+
+
+
+
+
+
