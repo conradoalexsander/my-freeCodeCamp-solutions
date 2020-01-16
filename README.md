@@ -1,4 +1,4 @@
-# my-freeCodeCamp-solutions
+# My freeCodeCamp Solutions
 
 Hello there!
 
